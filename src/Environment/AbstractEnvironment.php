@@ -76,7 +76,7 @@ abstract class AbstractEnvironment implements EnvironmentInterface
      * @return string       Endpoint's base URL
      * @throws Exception    If the Base Endpoint is not set
      */
-    final private function getBaseEndpoint()
+    final public function getBaseEndpoint()
     {
         $baseEndpoint = Helper::stringify($this->baseEndpoint);
 
